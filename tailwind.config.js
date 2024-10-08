@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/*.js"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
@@ -21,6 +21,17 @@ module.exports = {
       whiten: "#ECF0F5",
       "meta-green": "#20CA66",
       "meta-orange": "#FA9161",
+      gray: {
+        100: "#f3f4f6",
+        200: "#e5e7eb",
+        300: "#d1d5db",
+        400: "#9ca3af",
+        500: "#6b7280",
+        600: "#4b5563",
+        700: "#374151",
+        800: "#1f2937",
+        900: "#111827",
+      },
     },
     extend: {
       fontSize: {
@@ -127,5 +138,5 @@ module.exports = {
   },
   mode: "jit",
   darkMode: "class",
-  plugins: [require("flowbite/plugin")],
+  plugins: [],
 };

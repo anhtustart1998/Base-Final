@@ -37,14 +37,12 @@
     h1, h2, h3, h4, h5, h6 {
       @apply font-outfit;
     }
-  }
-
-
-
+}
 
 .dark .dark\:bg-blacksection {
     @apply bg-gray-900;
 }
+
 
 #header.sticky {
     @apply bg-white dark:bg-black shadow py-4 transition duration-100;
